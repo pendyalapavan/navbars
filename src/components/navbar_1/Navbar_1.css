@@ -1,12 +1,11 @@
-/* Nav.css */
-/* Reset some default styles */
+
 body, ul {
     margin: 0;
     padding: 0;
     list-style: none;
   }
   
-  /* Navbar styles */
+
   .navbar {
     display: flex;
     justify-content: space-between;
@@ -60,21 +59,21 @@ body, ul {
     cursor: pointer;
   }
   
-  /* Sidebar styles */
+
   .nav-items.active {
     display: flex;
     flex-direction: column;
     position: fixed;
     top: 0;
-    left: -250px; /* Changed to left */
+    left: -250px; 
     height: 100vh;
     background-color: #333;
     padding: 20px;
     width: 250px;
-    transition: left 0.3s; /* Changed to left */
+    transition: left 0.3s;
   }
   
-  /* Responsive styles */
+
   @media screen and (max-width: 1024px) {
     .nav-items {
       display: none;
@@ -89,7 +88,7 @@ body, ul {
     }
   
     .nav-items.active {
-      left: 0; /* Changed to left */
+      left: 0; 
     }
   }
   
